@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,3 +105,111 @@ footer{padding:18px;text-align:center;background:#080808;color:#aaa;margin-top:3
 
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Canteen</title>
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#0e0e0e;color:#fff;scroll-behavior:smooth;}
+header{width:100%;padding:18px 60px;display:flex;justify-content:space-between;align-items:center;position:absolute;top:0;left:0;z-index:10;}
+header .logo{font-size:26px;font-weight:700;color:#ffb100;}
+nav ul{display:flex;gap:24px;list-style:none;}
+nav ul li a{text-decoration:none;color:#eee;font-size:16px;transition:.3s;}
+nav ul li a:hover{color:#ffb100;}
+
+.btn-login{padding:8px 18px;border-radius:20px;background:#ffb100;color:#111;text-decoration:none;font-weight:600;cursor:pointer;}
+.btn-login:hover{background:#ff9500;}
+
+.hero{height:100vh;width:100%;display:flex;align-items:center;justify-content:space-between;padding:0 60px;background:#111;}
+.hero .content{max-width:480px;}
+.hero h1{font-size:48px;font-weight:700;margin-bottom:16px;line-height:1.2;}
+.hero p{color:#bbb;font-size:15px;margin-bottom:24px;}
+.hero img{width:480px;height:auto;border-radius:50%;box-shadow:0 0 30px rgba(255,165,0,0.4);animation:pop 3s infinite ease-in-out;}
+@keyframes pop{0%{transform:scale(1);}50%{transform:scale(1.03);}100%{transform:scale(1);} }
+.btn-primary{background:#ffb100;color:#111;padding:14px 32px;border:0;border-radius:30px;font-weight:600;cursor:pointer;font-size:17px;transition:.3s;}
+.btn-primary:hover{background:#ff9500;}
+
+.menu-preview{padding:80px 60px;text-align:center;background:#0d0d0d;}
+.menu-preview h2{font-size:38px;margin-bottom:18px;color:#ffb100;}
+.menu-preview p{color:#bbb;font-size:15px;margin-bottom:40px;}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px;}
+.menu-card{background:#111;padding:18px;border-radius:10px;box-shadow:0 0 10px rgba(255,165,0,0.15);transition:.3s;}
+.menu-card:hover{transform:translateY(-6px);box-shadow:0 0 14px rgba(255,165,0,0.3);}
+.menu-card img{width:100%;height:180px;object-fit:cover;border-radius:10px;margin-bottom:12px;}
+.menu-card h3{font-size:18px;margin-bottom:6px;color:#fff;}
+.menu-card span{color:#ffb100;font-weight:600;}
+
+footer{padding:18px;text-align:center;background:#080808;color:#aaa;margin-top:30px;}
+
+@media(max-width:900px){
+  .hero{flex-direction:column;text-align:center;padding-top:120px;}
+  .hero img{margin-top:40px;width:340px;}
+  header{padding:18px 30px;}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">🍽 Smart Canteen</div>
+  <a class="btn-login" href="index.html">MENU</a>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="content">
+    <h1>Enjoy Your Delicious Meal</h1>
+    <p>Fresh, fast, and tasty meals prepared at our Smart Canteen. Choose your favorite dish and get served instantly!</p>
+    <button class="btn-primary" onclick="window.location.href='smart_canteen.html'">Order Now</button>
+  </div>
+  <img src="pizza.jpg" alt="Food">
+</section>
+
+<!-- MENU PREVIEW SECTION -->
+<section id="menu" class="menu-preview">
+  <h2>Our Best Picks</h2>
+  <p>Handpicked meals recommended by our chefs</p>
+  <div class="menu-grid">
+
+    <div class="menu-card">
+      <img src="https://picsum.photos/seed/pizza/400/300" alt="">
+      <h3>Spicy Pepperoni Pizza</h3>
+      <span>₹499</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://picsum.photos/seed/burger/400/300" alt="">
+      <h3>Gourmet Chicken Burger</h3>
+      <span>₹249</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://picsum.photos/seed/cake/400/300" alt="">
+      <h3>Chocolate Lava Cake</h3>
+      <span>₹199</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="https://picsum.photos/seed/salad/400/300" alt="">
+      <h3>Quinoa Power Salad</h3>
+      <span>₹159</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>© 2025 Smart Canteen | Designed with ❤️ for efficiency</footer>
+
+</body>
+</html>
+>>>>>>> e6f059789133c64ed2465c5c73723625e9ad68e4
