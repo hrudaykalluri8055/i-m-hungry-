@@ -2,7 +2,7 @@
    Data & State
    ----------------------- */
 const initialItems = [
-  { id:1, title:'Spicy Pepperoni Pizza', category:'nonveg', price:499, img:'https://picsum.photos/seed/p1/600/400', available:true, rating:4.5, itemDiscount:0 },
+  { id:1, title:'Spicy Pepperoni Pizza', category:'nonveg', price:499, img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-mW5pElUpoE8VmiYxI7L5ox4CnwLKhEkeA&s', available:true, rating:4.5, itemDiscount:0 },
   { id:2, title:'Gourmet Beef Burger', category:'nonveg', price:399, img:'https://picsum.photos/seed/p2/600/400', available:true, rating:4.6, itemDiscount:0 },
   { id:3, title:'Fresh Sushi Platter', category:'veg', price:699, img:'https://picsum.photos/seed/p3/600/400', available:true, rating:4.7, itemDiscount:0 },
   { id:4, title:'Crispy Fish Tacos', category:'nonveg', price:329, img:'https://picsum.photos/seed/p4/600/400', available:true, rating:4.2, itemDiscount:0 },
